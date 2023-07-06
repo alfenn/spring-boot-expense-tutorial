@@ -15,7 +15,7 @@ import static com.alex.springbootmongodbtutorial.model.ExpenseCategory.*;
 @ChangeLog
 public class DatabaseChangeLog {
 
-    @ChangeSet(order = "001", id = "seedDatabase", author = "Alex")
+    @ChangeSet(order = "001", id = "dclog02", author = "Alex")
     public void seedDatabase(ExpenseRepository expenseRepository) {
         List<Expense> expenseList = new ArrayList<>();
         expenseList.add(createNewExpense("Movie Tickets", ENTERTAINMENT, BigDecimal.valueOf(40)));
